@@ -1,0 +1,34 @@
+How to setup Github with Git bash on windows Pc Instructions
+
+download gitbash from https://git-scm.com/downloads
+
+create account on https://github.com 
+we will need user name & password
+we will need user email
+
+
+$ git cd // <windows directory> like "$ git cd /c/git" and "ls" to list files
+
+$ git init //add empty repo
+
+Connect Git Bash with Github account
+
+$ git config --global user.name "username"
+
+to test 
+$ git config --global user.name
+
+to test
+$ git config --global user.email "user@email.com"
+
+to test 
+$ git config --global user.email
+
+make a new repo if you dont have one or use exiting one
+to test if git working,copy a repo address and use git bash command line
+
+$ git clone "url" like "$ git clone https://github.com/misbahedm/gitwindows"
+
+add new file in git repo
+
+$ git add "filename" like "$ git add test.txt"
