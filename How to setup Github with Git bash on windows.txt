@@ -49,4 +49,17 @@ push new commit of a repo
 $ git push -u origin master or
 $ git push origin master
 
+create a new branch
+$ git checkout -b [branch name]  //New branch name write in  [ ] //
+
+switch branch to branch
+$ git checkout branch-name
+
+Check branch list
+$ git branch -a   //List all branches (local and remote)//
+
+Branch Delete
+git branch -d [branch name] //Delete a branch//
+
+
 (if it ask for username and password put it and log in)
